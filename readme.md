@@ -15,31 +15,30 @@ A Powerful Telegram Chat Bot written in pyrogram. Useful for Feedbacks , Anonymo
 
 ## 🖇 VPS Deployment
 
-```console
-git clone https://github.com/TeamYukki/YukkiChatBot
-shikhar@MacBook~ $ cd YukkiChatBot
-shikhar@MacBook~ $ pip3 install -r requirements.txt
-shikhar@MacBook~ $ mv sample.env .env
+```git clone https://github.com/MS-DZULQURNAIN/chatbot```
+```cd chatbot```
+```pip3 install -r requirements.txt```
+```mv sample.env .env```
+```nano .env```
+> Edit .env dan save CTRL+C+X
+
+```run
+python3 main.py
 ```
-> Edit .env with your values and then start bot with
 
-```console
-shikhar@MacBook~ $ python3 main.py
+## 🔗 perintah
+
+- Perintah hanya untuk sudo users
 ```
+/block - Blokir pengguna dari bot
 
-## 🔗 Commands
+/unblock - Unblock pengguna
 
-- These commands are only for Sudo Users
-```
-/block - Block a user who is using bot.
+/stats - Cek status bot
 
-/unblock - Unblock a user.
+/broadcast - Broadcast ke semua pengguna
 
-/stats - Check bot's stats
-
-/broadcast - Broadcast any message to all users 
-
-/mode - Change mode between group and private. Bot will forward messages to that place only. By default to Private
+/mode - Ubah mode antara grup dan pribadi. Bot hanya akan meneruskan pesan ke tempat itu saja. Secara default ke Pribadi
 ```
 
 
