@@ -305,7 +305,7 @@ async def init():
                     "Failed to send the message, User might have blocked the bot or something wrong happened. Please check logs"
                 )
 
-    print("[LOG] - Yukki Chat Bot Started")
+    print("[LOG] - BOT TELAH AKTIF🔥🔥🔥")
     await idle()
 
 
