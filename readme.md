@@ -15,11 +15,21 @@ A Powerful Telegram Chat Bot written in pyrogram. Useful for Feedbacks , Anonymo
 
 ## 🖇 VPS Deployment
 
-```git clone https://github.com/MS-DZULQURNAIN/chatbot```
-```cd chatbot```
-```pip3 install -r requirements.txt```
-```mv sample.env .env```
-```nano .env```
+```
+git clone https://github.com/MS-DZULQURNAIN/chatbot
+```
+```
+cd chatbot
+```
+```
+pip3 install -r requirements.txt
+```
+```
+mv sample.env .env
+```
+```
+nano .env
+```
 > Edit .env dan save CTRL+C+X
 
 ```run
